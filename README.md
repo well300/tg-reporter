@@ -81,7 +81,4 @@ The Telegram Reporting Script is a tool designed to help users report suspicious
 - Be cautious when providing your bot token. Keep it private and do not share it with others.
 - This script is for educational purposes only and should not be used for malicious activities.
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
