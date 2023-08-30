@@ -15,7 +15,7 @@ def report_to_telegram(bot_token, chat_id, message):
 
 def main():
     print(Fore.RED + r"""
-            _  _  ____  __    __   
+              _  _  ____  __    __   
  __ __ __ ___ | || ||__ / /  \  /  \  
  \ V  V // -_)| || | |_ \| () || () | 
   \_/\_/ \___||_||_||___/ \__/  \__/                                                                                                                       
