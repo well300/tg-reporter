@@ -51,7 +51,7 @@ def main():
                 target_info = input()
                 target_infos.append(target_info.split("@")[1] if "@" in target_info else target_info)
         else:
-            print(f"Enter the ID or username of the {target_type} using @:")
+            print(f"Enter the ID or username of the {target_type}:")
             target_infos = [input()]
 
         print(Fore.MAGENTA + "------------------------------------------------------------")
@@ -112,7 +112,7 @@ def main():
 
         try:
             for target_info in target_infos:
-                message = f"{target_info} has been reported {num_reports} times by User {reporter_id}. Reason: {reason}"
+                message = f"@{target_info} has been reported {num_reports} times by User {reporter_id}. Reason: {reason}"
                 report_to_telegram(bot_token, chat_id, message)
             print(Fore.GREEN + "Reporting successful. Stay vigilant.")
         except Exception as e:
