@@ -21,7 +21,7 @@ def main():
   \_/\_/ \___||_||_||___/ \__/  \__/                                                                                                                       
                                                                                                                                                                          
     """)
-    print(Fore.CYAN + "🕵️‍♂️ Welcome to the Telegram Reporting Script! 🕵️‍♀️")
+    print(Fore.CYAN + "🕵️‍♂️ Welcome to the Telegram Mass Reporting Script! 🕵️‍♀️")
     print("Use this tool to report suspicious accounts on Telegram.")
     print("We're working to keep the digital world safe and peaceful.")
     print(Fore.MAGENTA + "------------------------------------------------------------")
