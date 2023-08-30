@@ -51,7 +51,7 @@ def main():
                 target_info = input()
                 target_infos.append(target_info.split("@")[1] if "@" in target_info else target_info)
         else:
-            print(f"Enter the ID or username of the {target_type}:")
+            print(f"Enter the ID or username of the {target_type} using @:")
             target_infos = [input()]
 
         print(Fore.MAGENTA + "------------------------------------------------------------")
